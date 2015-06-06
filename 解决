@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+
+	</ul>
+	<script type="text/javascript">
+		var list = el.getElementsByTagName('li');
+for(var i = 0; i < list.length; i++){
+	list[i].onclick = (function(i){
+    	console.log(i);
+    }).bind(null, i);
+}
+
+	</script>
+
+</body>
+</html>
