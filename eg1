@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function tick(m){
+			for(var i = 0; i < m; i++){
+    		  (function(i){
+				setTimeout(function(){
+				console.log(i);
+				}, i * 1000);
+     	 })(i);
+		}
+	}
+
+tick(5);
+	</script>
+</body>
+</html>
